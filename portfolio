@@ -65,15 +65,14 @@
             z-index: 2;
         }
 
-        /* Solar System Inside Header */
         .solar-system {
             position: absolute;
             top: 50%;
             left: 50%;
-            width: 150px; /* Smaller size for header */
+            width: 150px;
             height: 150px;
             transform: translate(-50%, -50%);
-            z-index: 0; /* Behind header text */
+            z-index: 0;
         }
 
         .sun {
@@ -156,12 +155,12 @@
             text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
             animation: glow 2s infinite alternate;
             position: relative;
-            z-index: 1; /* Above solar system */
+            z-index: 1;
         }
 
         header p {
             position: relative;
-            z-index: 1; /* Above solar system */
+            z-index: 1;
         }
 
         .download-btn {
@@ -175,7 +174,7 @@
             cursor: pointer;
             transition: transform 0.3s ease, box-shadow 0.3s ease;
             position: relative;
-            z-index: 1; /* Above solar system */
+            z-index: 1;
         }
 
         .download-btn:hover {
@@ -294,7 +293,6 @@
             text-shadow: 0 0 5px rgba(185, 145, 255, 0.5);
         }
 
-        /* Animations */
         @keyframes twinkle {
             0%, 100% { opacity: 0.5; }
             50% { opacity: 1; }
@@ -368,7 +366,7 @@
             <div class="header-star"></div>
             <h1>Bindhu Shree G V</h1>
             <p>B.Engg - Computer Science and Engineering Graduate</p>
-            <a href="Bindhu_Shree_CV LT.pdf" download><button class="download-btn">Download CV</button></a>
+            <a href="BindhuShreeCV.pdf" download><button class="download-btn">Download CV</button></a>
         </header>
 
         <div class="cosmic-particle"></div>
